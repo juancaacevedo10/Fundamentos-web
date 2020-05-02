@@ -1,0 +1,5 @@
+h1 {
+    color: blue;                 /*pone el color del texto a azul*/
+    font-family: Arial, sans-serif;
+    font-size: 20px;                /* pone el tamaño de letra a 18px*/
+}

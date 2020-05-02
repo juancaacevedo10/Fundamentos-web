@@ -1,0 +1,31 @@
+body{ 
+    padding: 0px 100px 0px 100px;
+   
+}
+
+div{
+
+    margin-top: 106px;
+}
+
+.autor{
+
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.title{
+
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.text{
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+
+.enlace{
+    padding: 8px 16px 8px -16px ;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" method="POST">
+
+        <label for="nombre">Nombre</label>
+        <div id="nom">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="Apellido" placeholder="Apellido" required>
+        </div>
+
+        <label for="nomusu">Nombre de usuario</label>
+        <input type="email" id="nomusu" placeholder="@gmail.com" required   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+
+        <label for="pass">Contraseña</label>
+        <input type="text" id="pass" required>
+
+        <label for="confpass">Confirma tu contraseña</label>
+        <input type="text" id="confpass" required>
+    
+        
+        <label for="fnaci">Fecha de nacimiento</label>
+        
+        <div id="col-fecha">
+        <input type="number" id="fnaci" placeholder="Dia" required>
+        <select name="mes" id="mes" required>
+            <option name="0" value="0">Mes</option>
+            <option name="mes" value="Enero">Enero</option>
+            <option name="mes" value="Febrero">Febrero</option>
+            <option name="mes" value="Marzo">Marzo</option>
+            <option name="mes" value="Abril">Abril</option>
+            <option name="mes" value="Mayo">Mayo</option>
+            <option name="mes" value="Junio">Junio</option>
+            <option name="mes" value="Julio">Julio</option>
+            <option name="mes" value="Agosto">Agosto</option>
+            <option name="mes" value="Septiembre">Septiembre</option>
+            <option name="mes" value="Octubre">Octubre</option>
+            <option name="mes" value="Noviembre">Noviembre</option>
+            <option name="mes" value="Diciembre">Diciembre</option>
+
+        </select>
+        <input type="number" id="faño" placeholder="Año" required>
+
+        </div>
+
+        <label for="Sexo">Sexo</label>
+        <select name="sexo" id="sexo">
+            <option value="0">Seleccione su genero</option>
+            <option value="hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+        </select>
+
+        <label for="telefono">Telefono Movil</label>
+        <input type="tel" name="tel"  id="tel" pattern="[0-9]{7}" > 
+
+        <label for="">Tu direccion de correo electronico actual</label>
+        <input type="email" name="mail" id="mail"   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+        <label for="ubicacion">ubicacion</label>
+        <select name="ubicacion" id="ubicacion">
+            <option value="españa">España</option>
+
+        </select>
+
+
+        <input type="submit" id="submit" value="Siguente paso">
+
+
+    </form>
+
+</body>
+</html>

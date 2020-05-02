@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+.box {
+  background: red;
+  /*
+  35% de ancho y 35% de alto
+  */
+  width: 50vh; 
+  height: 100vh;
+  margin-bottom: 5px;
+}
+
+.box2{
+    background: red;
+    /*
+    35% de ancho y 35% de alto
+    */
+    width: 10vh; 
+    height: 10vh;
+    margin-bottom: 5px;
+  }
+
+  .box3{
+    background: red;
+    /*
+    35% de ancho y 35% de alto
+    */
+    width: 100vw; 
+    height: 80vh;
+    margin-bottom: 5px;
+  }
+  

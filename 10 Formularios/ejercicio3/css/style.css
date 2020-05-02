@@ -1,0 +1,45 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 234, 250);    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body{
+    padding: 0% 2% 0% 2%;
+    margin: 0% 30% 0% 30%;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+input{
+    padding: 5px 5px 5px 5px;
+
+    margin: 5px 5px 5px 5px;
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#dates{
+    display: flex;
+}
+
+#submit{
+    color: white;
+    background-color: rgb(110, 184, 110);
+    margin: 1px 90px 20px 10px;
+    border-radius: 5px;
+}
+
+.namelast{
+    display: flex;
+}
+
+.namelast input{
+    width: 50%;
+}

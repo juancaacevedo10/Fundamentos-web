@@ -1,0 +1,31 @@
+
+body{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: column;
+}
+
+footer{
+    flex-grow: 1;
+    flex-shrink: inherit;
+    flex-basis: 100px;
+    background-color: orange;
+    
+}
+
+main{
+    flex-grow: 1;
+    flex-shrink: inherit;
+    flex-basis: 400px;
+  background-color: gray;
+
+}
+
+header{
+    flex-grow: 1;
+    flex-shrink: inherit;
+    flex-basis: 100px;
+    background-color: rgb(180, 180, 180);
+
+}

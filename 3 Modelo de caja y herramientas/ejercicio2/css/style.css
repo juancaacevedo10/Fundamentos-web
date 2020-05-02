@@ -1,0 +1,36 @@
+
+.block{
+
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+div p {
+    background-color: #A0C5E9;
+  }
+
+.inline-block{
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+
+.inline{
+
+    display: inline;
+    width: 100px;
+    height: 100px;
+
+}
+
+.none{
+
+    display: none;
+    width: 100px;
+    height: 100px;
+
+
+}

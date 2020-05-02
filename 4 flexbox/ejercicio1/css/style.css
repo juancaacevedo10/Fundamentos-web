@@ -1,0 +1,32 @@
+
+#div1{
+
+    width: 500px;
+    height: 500px;
+    display: flex;
+
+}
+
+#div1 p{
+    background-color: rgb(212, 230, 247);
+    border: 1px solid black;
+    width: 20px;
+
+}
+
+#div2{
+
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#div2 p{
+    background-color: rgb(212, 230, 247);
+    border: 1px solid black;
+    height:  20px;
+
+}

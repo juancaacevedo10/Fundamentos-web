@@ -1,0 +1,29 @@
+¿Cuáles son los breakpoints que nos ofrece Bootstrap? 
+
+Extra small
+<576px
+ 
+Small
+≥576px 
+
+Medium
+≥768px 
+
+Large
+≥992px 
+
+Extra large
+≥1200px
+
+¿Qué clase tendrá un elemento que ocupe 2 columnas en el breakpoint Small?
+
+tendra la clase .col-2
+
+
+¿Qué clase tendrá un elemento que ocupe 6 columnas en el breakpoint Large?
+
+.col-lg-6
+
+¿Qué clase tendrá un elemento que ocupe 11 columnas en el breakpoint Extra Small?
+
+.col-11

@@ -1,0 +1,30 @@
+Notas finales sobre cómo organizar nuestro proyecto
+
+A la hora de organizar los archivos y carpetas de un proyecto es normal fijar unas pequeñas normas que pueda seguir todo el equipo de manera que no sea un caos de archivos y cualquier persona pueda orientarse rápidamente en el proyecto y/o seguirlo.
+
+No hay una manera "buena" y cada empresa tiene las suyas. Lo importante es tener unas normas que las personas del equipo (y aquellas que se unirán en un futuro) puedan seguir facilitando su día a día. Para este curso vamos a plantear unas que dan bastante buen resultado para empezar. Aquí van:
+
+Los nombres de archivo irán siempre en minúsculas, sin tildes, sin espacios y sin caracteres especiales.
+
+Usaremos guiones para separar palabras: baby-kangaroo.png
+
+Usaremos [rutas relativas](https://es.wikipedia.org/wiki/Ruta_(informatica)#Ruta_relativa) siempre. Veremos más información sobre las rutas relativas en la siguiente sesión.
+
+Los nombres de archivo siempre en inglés: rainy-and-windy-day.png
+
+El archivo de estilos principal se llamará style.css, o main.css cuando se encuentre dentro de una carpeta llamada styles.
+
+El archivo HTML principal se llamará index.html
+
+Para la estructura del proyecto usaremos estas carpetas:
+/project-folder
+ │
+ ├── images
+ │    └── background.jpg
+ │
+ ├── scripts
+ │
+ ├── styles
+ │   └── main.css
+ │
+ └── index.html

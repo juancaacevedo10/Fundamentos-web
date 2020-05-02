@@ -1,0 +1,43 @@
+
+div{
+    margin: 20px;
+}
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+p{
+    line-height: 24px;
+    font-size: 18px;
+}
+
+@media all and (min-width:550px) {
+    div {
+        margin: 30px 40px 40px 40px;
+    }
+
+    h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    p{
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width:1140px) {
+    div {
+        margin: 190px auto auto auto;
+        max-width: 750px;
+    }
+
+    h1{
+        font-size: 42px;
+        font-weight: bold;
+    }
+    p{
+        line-height: 32px;
+        font-size: 24px;
+    }
+}

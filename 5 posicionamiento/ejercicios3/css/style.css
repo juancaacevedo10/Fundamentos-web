@@ -1,0 +1,17 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+    position: fixed;
+    top: 0px;
+    z-index: 500;
+}
+
+section{
+width: 100%;
+height: 100%;
+background-color: royalblue;
+position: absolute;
+top: 100px;
+
+}

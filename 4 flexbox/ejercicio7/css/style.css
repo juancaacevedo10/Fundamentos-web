@@ -1,0 +1,104 @@
+
+body{
+
+    width: 100%;
+    max-width: 840px;
+    display: flex;
+}
+
+.section-principal{
+
+    display: flex;
+    width: 100%;
+}
+
+img{
+
+    width: 110px;
+    height: 92px;
+}
+
+.section-sub{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -16px;
+    margin-left: 5px;
+
+
+}
+
+.section-top .sub-top h5{
+    margin-bottom: -20px;
+}
+
+.section-top h6{
+    margin-bottom: -20px;
+}
+
+
+.sub-top{
+
+}
+
+.section-button{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sub-button{
+    display: flex;
+}
+
+.img-star{
+    width: 30px;
+    height: 20px;
+    padding-top: 15px;
+
+}
+
+.comentarios{
+    display: flex;
+
+}
+.number{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 22px;
+    border-radius: 5px ;
+    background-color: rgb(209, 209, 209);
+}
+
+.number p{
+
+    margin-top: 6px;
+    color: black;
+}
+
+#color-text{
+
+    color: rgb(209, 209, 209);
+}
+.section-button .sub-button p{
+    border: 2px solid rgb(209, 209, 209);
+    margin-left: 5px;
+    padding: 7px 12px 10px 9px;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(209, 209, 209);
+
+}
+
+#boton2{
+    color: white;
+    background-color: rgb(209, 209, 209);
+}
