@@ -1,0 +1,55 @@
+@import '../core/variables';
+
+.input{
+    width: 30vw;
+    display: inline-block;
+    padding: 9px 16px 7px 0px;  
+    margin-top: 10px;
+    
+    border: 0;
+    border-bottom: $color-alternate solid 1px;
+    cursor: text;
+     
+        &:hover {    
+        transition: all 150ms linear;
+        opacity: 0.85;  
+        }
+        
+        &:focus {
+            outline:0; 
+            border-bottom: rgb(0, 204, 255) solid 1px; 
+                      
+        }
+}
+.fa-times{
+    color: $color-alert;
+
+}
+.fa-check{
+    color: $color-success;
+}
+.fa-ban{
+    color: $color-alternate;
+}
+.ipt-alert {  
+    border-bottom: $color-alert solid 1px;
+    
+    }
+
+
+
+.ipt-disabled {  
+    border-bottom: $color-alternate dotted 1px ;
+    color: initial;
+    background-color: initial;
+    
+}
+
+
+.ipt-success {  
+    border-bottom: $color-success solid 1px;
+}
+
+.ipt-normal{
+    padding-left: 10px ;
+}

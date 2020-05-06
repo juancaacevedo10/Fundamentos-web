@@ -1,0 +1,35 @@
+
+@import '../core/variables';
+
+body{
+    font-family: $font-family;
+}  
+
+
+p{
+
+    font-size: $font-size1;
+    color: $color-secundary;
+
+}
+
+h2{
+
+    font-size: $font-size2;
+    color: $color-primary;
+
+}
+
+@media only screen and (max-width: 600px) {
+   
+    
+    h2{
+    
+        font-size: $font-sizeP;
+    
+    }
+    .sc-cSHVUG.gpgBFo P{
+        font-size: $font-size2;
+    }
+
+}
